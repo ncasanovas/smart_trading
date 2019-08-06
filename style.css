@@ -162,7 +162,7 @@ a.single-about,
 
 .header-area.header-absolate.skrollable.skrollable-after {
   padding-top: 15px;
-  background: #000D47;
+  background: #003C71;
   padding-bottom: 15px;
 }
 
@@ -1772,9 +1772,7 @@ a.gradient-btn:hover:after{
 
 
 /*******Changes*******/
-body{
-	background-color: #003C71;
-}
+
 
 a.gradient-btn {
     background: none;
@@ -1788,7 +1786,9 @@ a.gradient-btn {
 }
 
 .header-area {
-    padding-top: 20px;
+  padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #003C71;
 
 }
 
@@ -1819,49 +1819,126 @@ img#logo-welcome {
 
 
 
-/*About */
+/*Servicios*/
 
-#about {
-	margin-top: 6em;
+#services{
+	background: #FFFFFF;
+	color: #000000;
+	text-align: left;
 }
 
-#aboutImg {
-	width: 50%;
+#grid-services{
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+
+
+}
+
+#fintech{
+	color: #003C71;
+
+	font-weight: bolder;
+}
+
+#services h5 {
+	color: #000000;
+	font-weight: bold;
+
+}
+.item-services {
+
+	display: inline-block;
+	padding: 1.5em;
+}
+
+.item-services img {
+	width: 90%;
 	height: auto;
-
 }
 
-#grid-about {
+
+/* Nuestro Compromiso */
+
+#compromiso {
+	background: #97999B;
+	color: #003C71;
+}
+
+#grid-top {
 	display: grid;
-	grid-template-columns: repeat(2, 50%);
-	grid-template-rows: repeat(2, 50%);
-
-
-
+	grid-template-columns: repeat(2, 50%)
 }
 
-.item-about {
-	text-align: center;
-	display: inline-block;
+.item-top {
 	padding: 1.5em;
 
 }
 
 
-/*FAQ*/
 
-#grid-faq{
+#left-top {
+	justify-self: center;
+	align-self: start;
+}
+
+#right-top {
+	justify-self: start;
+	align-self: end;
+	font-weight: bold;
+	margin-right: 4em;
+
+}
+#right-top p {
+	margin-bottom: 0;
+}
+
+#compromiso h1 {
+	font-size: 5em;
+	color: #003C71;
+}
+
+#compromiso h3 {
+	font-weight: bold;
+	color: #003C71;
+}
+
+#grid-bottom {
 	display: grid;
-	grid-template-columns: repeat(2, 50%);
-
+	grid-template-columns: 2fr 1fr 2fr;
+  justify-content: center;
+  grid-gap: 1em;
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-top: 3em;
 
 }
 
-.item-faq {
-	text-align: center;
-	display: inline-block;
-	padding: 1.5em;
+.icon-bottom {
+	width: 45%;
+	height: auto;
 }
+
+.isotipos {
+	width: 60%;
+	height: auto;
+	padding-bottom: 4em;
+
+}
+
+.item-bottom {
+	align-self: center;
+	align-items: center;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+.item-bottom p {
+	padding-top: 1em;
+}
+.item-border{
+	border: 4px solid #003C71;
+}
+
 
 
 /*+INFO*/
