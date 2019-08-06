@@ -164,7 +164,7 @@
 */
 
 @media only screen and (max-width: 991px) {
-    
+
     .welcome-text h1 {
         font-size: 22px;
         font-weight: 700;
@@ -209,7 +209,7 @@
     .about-mid-text h1 {
         font-size: 22px;
     }
-    .custom-progressBar::before, 
+    .custom-progressBar::before,
     .custom-progressBar::after {
         font-size: 24px;
     }
@@ -414,9 +414,9 @@
             margin-bottom: auto;
         margin-bottom: 30px;
     }
-    #days, 
-    #minutes, 
-    #hours, 
+    #days,
+    #minutes,
+    #hours,
     #seconds {
         font-size: 28px;
     }
@@ -542,9 +542,9 @@
         padding-top: 8%;
         padding-right: 75%;
     }
-    .single-roadmap.road-left::before, 
-    .single-roadmap.road-left::after, 
-    .single-roadmap.road-right::before, 
+    .single-roadmap.road-left::before,
+    .single-roadmap.road-left::after,
+    .single-roadmap.road-right::before,
     .single-roadmap.road-right::after {
     display: none;
     }
@@ -620,9 +620,9 @@
         font-size: 10px;
         text-align: unset;
     }
-    .v2.welcome-progress #days, 
-    .v2.welcome-progress #minutes, 
-    .v2.welcome-progress #hours, 
+    .v2.welcome-progress #days,
+    .v2.welcome-progress #minutes,
+    .v2.welcome-progress #hours,
     .v2.welcome-progress #seconds {
         font-size: 16px;
         height: 40px;
@@ -688,11 +688,11 @@
     .single-blog-social {
         text-align: center;
     }
-    
+
     .single-blog-contact input:nth-child(2) {
         margin-left:0;
     }
-    
+
     .comment-text-form a.gradient-btn {
         font-size: 8px;
         padding: 16px 12px;
