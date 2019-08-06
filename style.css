@@ -1817,7 +1817,10 @@ img#logo-welcome {
 
 }
 
-
+video {
+	display: block;
+	margin: auto;
+}
 
 /*Servicios*/
 
@@ -1938,6 +1941,71 @@ img#logo-welcome {
 .item-border{
 	border: 4px solid #003C71;
 }
+
+/*Registro*/
+
+
+#registro {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+#grid-registro {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	margin-left: 8em;
+	margin-right: 8em;
+	margin-top: 3em;
+}
+
+.item-registro img {
+	width: 90%;
+	height: auto;
+}
+
+#registro h2 {
+	color: #003C71;
+	font-size: 2.5em;
+	font-weight: bolder;
+}
+
+ #registro h5 {
+	color: #003C71;
+		font-weight: bold;
+ }
+
+ #registro p {
+	 font-weight: bold;
+ }
+
+ .item-registro {
+
+ 	margin: 2em;
+ }
+
+#item-justify {
+	text-align: right;
+	padding-right: 3em;
+}
+
+#registro a {
+	margin-left: 5em;
+	margin-top: 2em;
+}
+
+/*Social*/
+
+#social {
+	background: #FFFFFF;
+
+
+}
+#social h1 {
+	color: #003C71;
+	font-weight: bolder;
+	margin-left: 3em;
+}
+
 
 
 
