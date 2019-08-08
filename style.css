@@ -256,10 +256,10 @@ a.single-about,
 .welcome-area::before {
   position: absolute;
   width: 100%;
-  height: 161%;
+  height: 85%;
   content: "";
   background: url(assets/img/background-banner.png) no-repeat;
-  background: ;
+  background-position: bottom;
 
   z-index: -1;
 }
@@ -1814,7 +1814,7 @@ a.gradient-btn {
 
 
 img#logo-welcome {
-	width: 50%;
+  width: 30%;
 	height:auto;
 	margin: 0 auto;
 
@@ -1949,7 +1949,8 @@ video {
 	align-items: center;
 	padding: 0.5em;
 	margin: 0.5em;
-	padding-top: 1.5em;
+  padding-top: 1.5em;
+  min-height: 270px;
 }
 
 .item-bottom p {
@@ -2065,8 +2066,7 @@ video {
 
 .footera-area {
 	background: #003C71;
-	padding-bottom: 2em;
-	margin-bottom: 0;
+	padding-bottom: 4em;
 }
 
 .single-footer li a:hover {
@@ -2090,13 +2090,129 @@ video {
 
 #socials-icons {
 	padding-top: 6em;
-	padding-left: 5em;
 }
 
 #socials-icons a .fa {
  display:block;
  }
 
+.disabled {
+  cursor: auto;
+  color: gray !important;
+}
+
 
 
 /* Media queries */
+@media screen and (max-width: 736px) {
+
+  html {
+    overflow-y: scroll !important;
+  }
+
+  .logo-area img {
+    width: 105px !important;
+    height: 36px !important;
+  }
+
+  .header-area a.gradient-btn,
+  #registro a {
+    font-size: 10px ;
+  }
+
+	.footera-area .row {
+    display: table;
+  }
+
+  #grid-services {
+    display: table;
+  }
+
+  img#logo-welcome {
+    width: 80%;
+  }
+
+  .enterButton .logibtn.gradient-btn{
+    font-size: 20px;
+    margin-top: 5em !important;
+  }
+
+  #compromiso #grid-top {
+    display: table;
+  }
+
+  #compromiso .item-top {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  video {
+    width: 300px;
+  }
+
+  #grid-registro {
+    display: table;
+    margin: 0 auto;
+  }
+
+  .space-90 {
+    height: 70px;
+  }
+
+  #right-top {
+    margin-right: 0px;
+  }
+
+  #right-top p {
+    text-align: center;
+  }
+
+  h1, h3, #grid-services h5, #grid-services p {
+    text-align: center;
+  }
+
+  .footera-area .text-center {
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .footera-area.section-padding {
+    padding-top: 40px;
+  }
+
+  .footera-area .single-footer ul {
+    padding-bottom: 50px;
+  }
+
+  #socials-icons {
+    padding-top: 0px;
+  }
+
+  #logo-footer {
+    width: 63%;
+  }
+
+  #item-justify {
+    text-align: left;
+  }
+
+  .welcome-area {
+    background: url(assets/img/background-banner.png) no-repeat;
+    background-position: bottom;
+  }
+  
+  .item-bottom {
+    min-height: 315px;
+    min-width: 42px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .item-border {
+    min-width: 141px;
+  }
+  
+  .isotipos {
+    width: 120%;
+  }
+}
