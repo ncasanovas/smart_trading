@@ -1786,6 +1786,8 @@ a.gradient-btn {
 	margin: 0 auto;
 }
 
+
+
 /*Nav*/
 .logo-area img {
   width: 100px;
@@ -1844,6 +1846,7 @@ video {
 	color: #000000;
 	text-align: left;
 	padding-top: 3em;
+
 }
 
 #grid-services{
@@ -1879,7 +1882,7 @@ video {
 /* Nuestro Compromiso */
 
 #compromiso {
-	background: #97999B;
+	background: #E6E6E6;
 	color: #003C71;
 }
 
@@ -1895,29 +1898,30 @@ video {
 
 
 
-#left-top {
-	justify-self: center;
-	align-self: start;
-}
-
 #right-top {
-	justify-self: start;
-	align-self: end;
+
 	font-weight: bold;
-	margin-right: 4em;
+
+
 
 }
+
 #right-top p {
 	margin-bottom: 0;
+	padding-top: 1em;
 }
 
+
+
+
 #compromiso h1 {
-	font-size: 5em;
+	font-size: 6em;
 	color: #003C71;
 }
 
 #compromiso h3 {
 	font-weight: bold;
+
 	color: #003C71;
 }
 
@@ -1926,9 +1930,11 @@ video {
 	grid-template-columns: 2fr 1fr 2fr;
   justify-content: center;
   grid-gap: 1em;
-	margin-left: 8em;
-	margin-right: 8em;
+	/*margin-left: 8em;
+	margin-right: 8em;*/
 	margin-top: 3em;
+	margin-left: 3em;
+	margin-right: 3em;
 
 }
 
@@ -1948,9 +1954,11 @@ video {
 	align-self: center;
 	align-items: center;
 	padding: 0.5em;
-	margin: 0.5em;
+	/*margin: 0.5em;*/
   padding-top: 1.5em;
   min-height: 270px;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 .item-bottom p {
@@ -1978,18 +1986,17 @@ video {
 #registro {
 	background: #FFFFFF;
 	color: #000000;
+	padding-bottom: 4em;
 }
 
 #grid-registro {
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
-	margin-left: 8em;
-	margin-right: 8em;
 	margin-top: 3em;
 }
 
 .item-registro img {
-	width: 90%;
+	width: 100%;
 	height: auto;
 }
 
@@ -2015,11 +2022,11 @@ video {
 
 #item-justify {
 	text-align: right;
-	padding-right: 3em;
+	/*padding-right: 3em;*/
 }
 
 #registro a {
-	margin-left: 5em;
+
 	margin-top: 2em;
 }
 
@@ -2200,7 +2207,7 @@ video {
     background: url(assets/img/background-banner.png) no-repeat;
     background-position: bottom;
   }
-  
+
   .item-bottom {
     min-height: 315px;
     min-width: 42px;
@@ -2211,8 +2218,10 @@ video {
   .item-border {
     min-width: 141px;
   }
-  
+
   .isotipos {
     width: 120%;
   }
+
+
 }
