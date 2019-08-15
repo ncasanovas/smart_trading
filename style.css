@@ -1992,7 +1992,28 @@ video {
 #grid-registro {
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
+	grid-template-areas:
+		"a b"
+		"c d"
+		"e f";
 	margin-top: 3em;
+}
+
+.registrate {
+	grid-area: a;
+
+}
+
+.img-registrate {
+	grid-area: b;
+}
+
+.informate {
+	grid-area: e;
+}
+
+.img-informate {
+	grid-area: f;
 }
 
 .item-registro img {
@@ -2153,14 +2174,27 @@ video {
     padding-bottom: 0px;
   }
 
+	#item-botom p {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
   video {
     width: 300px;
   }
 
   #grid-registro {
-    display: table;
+    display: grid;
+		grid-template-columns: 100%;
     margin: 0 auto;
-  }
+		grid-template-areas:
+			"b"
+			"a"
+			"d"
+			"c"
+			"f"
+			"e";
+	}
 
   .space-90 {
     height: 70px;
@@ -2220,8 +2254,10 @@ video {
   }
 
   .isotipos {
-    width: 120%;
+    /*width: 120%;*/
+		display: none;
   }
+
 
 
 }
