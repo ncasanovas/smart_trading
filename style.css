@@ -1790,7 +1790,7 @@ a.gradient-btn {
 
 /*Nav*/
 .logo-area img {
-  width: 100px;
+  width: 50px;
   margin: 0;
   height: auto;
 }
@@ -2139,8 +2139,8 @@ video {
   }
 
   .logo-area img {
-    width: 105px !important;
-    height: 36px !important;
+    width: 35px !important;
+    height: auto !important;
   }
 
   .header-area a.gradient-btn,
