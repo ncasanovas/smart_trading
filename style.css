@@ -178,7 +178,7 @@ a.single-about,
 
 .main-menu li a {
   display: block;
-  padding: 10px;
+  padding: 15px;
   font-size: 14px;
   color: #fff;
   text-transform: capitalize;
@@ -1723,7 +1723,7 @@ a.gradient-btn {
   text-transform: uppercase;
   font-weight: 700;
   background: -webkit-linear-gradient(right,#fe998b,#fa768d,#f78ca0);
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 5px;
   position: relative;
   z-index: 2;
